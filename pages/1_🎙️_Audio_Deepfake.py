@@ -5,12 +5,12 @@ import joblib
 import os
 from styles import apply_custom_styles
 
-st.set_page_config(page_title="Audio Deepfake Detection", page_icon="🎙️", layout="wide")
+st.set_page_config(page_title="Audio Deepfake Detection", page_icon="", layout="wide")
 apply_custom_styles()
 
 st.markdown("""
     <div style="text-align: center; padding-bottom: 20px;">
-        <h1 class="animate-fade-in">🎙️ Audio Deepfake Detection</h1>
+        <h1 class="animate-fade-in"> Audio Deepfake Detection</h1>
         <p style="color: #cccccc;">Upload an audio file to detect if it's <b>Bonafide (Real)</b> or <b>Deepfake (Spoofed)</b>.</p>
     </div>
 """, unsafe_allow_html=True)
