@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 from styles import apply_custom_styles
 
-st.set_page_config(page_title="Software Defect Prediction", page_icon="", layout="wide")
+st.set_page_config(page_title="Software Defect Prediction",  layout="wide")
 apply_custom_styles()
 
 st.markdown("""

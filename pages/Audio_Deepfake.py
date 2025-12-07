@@ -5,7 +5,7 @@ import joblib
 import os
 from styles import apply_custom_styles
 
-st.set_page_config(page_title="Audio Deepfake Detection", page_icon="", layout="wide")
+st.set_page_config(page_title="Audio Deepfake Detection",  layout="wide")
 apply_custom_styles()
 
 st.markdown("""
@@ -157,9 +157,3 @@ with col2:
                             </div>
                         """, unsafe_allow_html=True)
 
-                # Cleanup
-                if os.path.exists("temp_audio.wav"):
-                    os.remove("temp_audio.wav")
-        st.markdown('</div>', unsafe_allow_html=True)
-    else:
-        st.info("👈 Please upload an audio file from the sidebar to start analysis.")
