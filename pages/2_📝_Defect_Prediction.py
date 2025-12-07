@@ -6,12 +6,12 @@ import pandas as pd
 import numpy as np
 from styles import apply_custom_styles
 
-st.set_page_config(page_title="Software Defect Prediction", page_icon="📝", layout="wide")
+st.set_page_config(page_title="Software Defect Prediction", page_icon="", layout="wide")
 apply_custom_styles()
 
 st.markdown("""
     <div style="text-align: center; padding-bottom: 20px;">
-        <h1 class="animate-fade-in">📝 Software Defect Prediction</h1>
+        <h1 class="animate-fade-in"> Software Defect Prediction</h1>
         <p style="color: #cccccc;">Enter a bug report to predict its defect tags (e.g., Bug, High Priority, UI).</p>
     </div>
 """, unsafe_allow_html=True)
